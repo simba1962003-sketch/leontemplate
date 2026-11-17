@@ -1,0 +1,191 @@
+<!-- تعريف HTML5 -->
+<!DOCTYPE html>
+<!-- بداية الصفحة ولغتها إنجليزي -->
+<html lang="en">
+
+<!-- إعدادات الصفحة المخفية -->
+<head>
+  <!-- دعم الحروف والرموز -->
+  <meta charset="UTF-8">
+  <!-- تجاوب الشاشة مع الجوال -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- عنوان التبويب فوق -->
+  <title>Leon Template</title>
+  <!-- ربط ملف الـ CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- مكتبة الأيقونات الجاهزة -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<!-- محتوى الصفحة اللي بشوفه الزائر -->
+<body>
+
+  <!-- الشريط العلوي -->
+  <header>
+    <!-- صندوق بلم العناصر في نص الشاشة -->
+    <div class="container">
+      <div align="left">
+        <!-- صورة الشعار -->
+        <img id="logo" src="images/logo.png" alt="Logo" width="200px">
+      </div>
+      <!-- أيقونة القائمة -->
+      <i class="fa-solid fa-list"></i>
+      <!-- روابط التنقل جوا الصفحة -->
+      <ul>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- واجهة الترحيب الرئيسية -->
+  <div class="landing">
+    <div class="intro">
+      <h1>Hello There</h1>
+      <!-- نص تجريبي مؤقت -->
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae earum ipsam molestiae at dicta quo impedit error praesentium aspernatur tenetur illo eius sequi iure esse, sapiente odit natus consectetur facilis?</p>
+    </div>
+  </div>
+
+  <!-- قسم المميزات (مربوط بالرابط اللي فوق) -->
+  <div id="features">
+    <div class="container">
+      <!-- ميزة 1 -->
+      <div class="feat">
+        <i class="fa-solid fa-wand-magic-sparkles"></i>
+        <h3>Feature</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci explicabo officia consectetur, placeat, impedit asperiores earum omnis, repudiandae sunt numquam culpa dolor? Qui accusamus eveniet tenetur ipsa eum impedit totam.</p>
+      </div>
+      <!-- ميزة 2 -->
+      <div class="feat">
+        <i class="fa-regular fa-gem"></i>
+        <h3>Feature</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vero fugiat molestias sunt nam earum tenetur repellat minima commodi ea, sint veniam quidem tempore doloremque rerum aliquid laborum dolores assumenda.</p>
+      </div>
+      <!-- ميزة 3 -->
+      <div class="feat">
+        <i class="fa-solid fa-earth-asia"></i>
+        <h3>Feature</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At eum reiciendis minus consequuntur. Doloremque aliquid repudiandae odit ad mollitia laborum quas iste ipsa aspernatur! Id nam minus blanditiis quas possimus!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- قسم الخدمات -->
+  <div id="services">
+    <div class="container">
+      <!-- عنوان مميز للقسم -->
+      <h2 class="special-heading">Services</h2>
+      <p>Don't be busy, be productive</p>
+      <div class="inner-container">
+        
+        <!-- العمود الأول (خدمتين) -->
+        <div class="col">
+          <div class="serv">
+            <i class="fa-solid fa-pencil"></i>
+            <h3>Graphic Design</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit facilis quis voluptatem adipisci fugiat nulla distinctio quia? Veritatis, facilis consequatur. Fugit voluptatum aspernatur itaque aliquam voluptas vero ut repellat ipsam!</p>
+          </div>
+          <div class="serv">
+            <i class="fa-solid fa-sliders"></i>
+            <h3>UI & UX</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos facilis beatae labore, iste tenetur laborum ratione, natus neque a cupiditate sed dolor pariatur provident nesciunt rerum repellendus eligendi, praesentium magnam!</p>
+          </div>
+        </div>
+
+        <!-- العمود الثاني (خدمتين) -->
+        <div class="col">
+          <div class="serv">
+            <i class="fa-solid fa-laptop"></i>
+            <h3>Web Design</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur beatae voluptatibus labore explicabo excepturi veniam unde obcaecati iste quas perspiciatis deleniti ad illo pariatur, cumque vero voluptatum assumenda animi inventore?</p>
+          </div>
+          <div class="serv">
+            <i class="fa-solid fa-link"></i>
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque commodi libero ipsum molestiae consequatur itaque deleniti architecto dolor maxime eius exercitationem blanditiis rem non molestias hic odit, sed, harum ducimus.</p>
+          </div>
+        </div>
+
+        <!-- العمود الثالث (صورة تعبيرية) -->
+        <div class="col">
+          <div class="serv">
+            <img src="images/تنزيل.jpg" width="150px" alt="Services Image">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- قسم معرض الأعمال -->
+  <div id="portfolio">
+    <div class="container">
+      <h2 class="special-heading">Portfolio</h2>
+      <p>If you do it right, it will last forever.</p>
+      <div class="inner-container">
+        <!-- مشروع 1 -->
+        <div class="port-project">
+          <img src="images/تنزيل (1).jpg" width="200px" alt="Project 1">
+          <h4>Project 1</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi excepturi, repellat, amet eum facere quae voluptatibus aut expedita doloremque nemo fuga dolores aspernatur maxime quo, consequuntur modi ratione! Tenetur, aperiam.</p>
+        </div>
+        <!-- مشروع 2 -->
+        <div class="port-project">
+          <img src="images/images (3).jpg" width="200px" alt="Project 2">
+          <h4>Project 2</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi consequatur voluptatibus cum debitis quo, quaerat quasi explicabo tenetur suscipit nemo aspernatur magni natus voluptatum beatae illo temporibus, expedita deleniti nihil!</p>
+        </div>
+        <!-- مشروع 3 -->
+        <div class="port-project">
+          <img src="images/images (1).jpg" width="200px" alt="Project 3">
+          <h4>Project 3</h4>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio voluptatem doloribus itaque cumque non enim suscipit ab, maiores excepturi eveniet quasi magnam dolores soluta dolore, necessitatibus veniam ratione, exercitationem recusandae!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- قسم من نحن -->
+  <div id="about">
+    <div class="container">
+      <h2 class="special-heading">About</h2>
+      <p>Less is more work</p>
+      <div class="about-content">
+        <!-- صورة القسم -->
+        <div class="about-img">
+          <img src="images/images.jpg" width="200px" alt="About Our Company">
+        </div>
+        <!-- نص التعريف -->
+        <div class="text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, debitis ducimus, enim fugit consectetur atque provident vel praesentium sint mollitia, ea inventore! Deleniti commodi, unde harum quisquam quae totam modi.</p>
+          <!-- خط أفقي فاصل -->
+          <hr>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, quae ut nesciunt in reprehenderit eum nihil voluptas facilis sint quas corrupti itaque tenetur quibusdam laudantium eos veritatis nostrum aliquid aperiam.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- قسم التواصل -->
+  <div id="contact">
+    <div class="container">
+      <h2 class="special-heading">Contact</h2>
+      <p>We are born to create</p>
+      <h3>Feel free to drop us a line at:</h3>
+      <!-- رابط بفتح الإيميل مباشرة -->
+      <a href="mailto:leonagency@mail.com">leon@mail.com</a>
+      <!-- أيقونات السوشيال ميديا -->
+      <div class="social">
+        <span>Conact Us</span>
+        <a ><i class="fa-brands fa-google"></i></a>
+        <a ><i class="fa-brands fa-facebook"></i></a>
+        <a ><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
